@@ -11,9 +11,19 @@ import NEXT from '../assets/lang_icons/next.jpg'
 import REDUX from '../assets/lang_icons/Redux.png'
 
 
-function tools() {
+
+import  Aos  from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
+
+
+
+function Tools() {
+  useEffect(() =>{
+    Aos.init({duration:3000})
+  },[])
   return (
-    <section className='h-auto w-full'>
+    <section id='about' className='h-auto w-full'>
       <div className='container'>
         <div className='mt-[150px] sm:text-center md:mt-[250px] text-center'>
           <h1 className='text-3xl md:text-5xl font-bold  tracking-widest text-black mx-auto leading-normal'>Tools I work with:</h1>
@@ -27,30 +37,30 @@ function tools() {
                  I always try to be in trend in order to produce  maximally
               innovative, testable, maintainable and stable code.</p>
               
-              <p className='tracking-wide leading-9 font-medium text-xl pt-[15px]'>Hardworking and reliable web
+              <p className='pb-32 lg:tracking-wide leading-9 font-medium text-xl pt-[15px]'>Hardworking and reliable web
                developer with strong ability in web designing.
                I'm very passionate about solving 
-               problems and eager to learn more skills ahead.<br></br>I can position my self 
+               problems and eager to learn more skills ahead.<br /><br />I can position my self 
                  in any tech team to support initiatives to ensure we reach our goals.</p>
           </div>
-          <div className='mt-20 md:mt-7' >
-          <h2 className='text-2xl sm:tracking-widest ml-4 mb-5 sm:font-medium md:text-black text-[24px] font-normal tracking-wide text-left mt-24'>Skilled in </h2>
-            <div className='grid sm:items-left grid-cols-4 sm:w-full md:grid w-full md:grid-cols-4 grid-flow-row mt-3 gap-7'>
+          <div data-aos='flip-up' className='animate-bounce'>
+          <h2 className='text-2xl sm:tracking-widest ml-4 mb-5 sm:font-medium md:text-black text-[24px] font-normal tracking-wide text-left '>Skilled in </h2>
+            <div className='grid sm:items-left grid-cols-4 sm:w-full md:grid w-full md:grid-cols-4 grid-flow-row gap-x-7 '>
             <div className='hover:scale-110 duration-500'>
-                  <img className='mx-auto w-20 md:w-52 px-5 py-5 rounded-lg shadow-2xl bg-white' src={HTML} alt="HTML icon" />
+                  <img className='mx-auto w-20 md:w-32 px-5 py-5 rounded-lg shadow-2xl bg-white' src={HTML} alt="HTML icon" />
                   <p className='my-4 text-center tracking-wide text-black font-bold'>HTML</p>
               </div>
              
               <div className='hover:scale-110 duration-500'>
-                  <img className='mx-auto  w-20 md:w-32  shadow-2xl px-5 py-[25px] rounded-lg bg-white' src={CSS3} alt="css icon" />
-                  <p className='my-4 text-center tracking-wide text-black font-bold'>CSS3</p>
+                  <img className='mx-auto md:shadow-2xl px-5 py-[25px] rounded-lg bg-white' src={CSS3} alt="css icon" />
+                  <p className='my-4 text-center tracking-wide text-black font-bold'>CSS</p>
               </div>
               <div className='hover:scale-110 duration-500'>
-                  <img className='mx-auto  w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={JAVASCRIPT} alt="javascript icon" />
+                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={JAVASCRIPT} alt="javascript icon" />
                   <p className='my-4 text-center tracking-wide text-black font-bold'>JS</p>
               </div>
               <div className='hover:scale-110 duration-500'>
-                  <img className='mx-auto  w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={REACT} alt="react icon" />
+                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={REACT} alt="react icon" />
                   <p className='my-4 text-center tracking-wide text-black font-bold'>REACT</p>
               </div>
               <div className='hover:scale-110 duration-500'>
@@ -76,6 +86,6 @@ function tools() {
     </section>
   )
 }
-export default tools
+export default Tools
 
 

@@ -6,7 +6,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 function news() {
   return (
-    <section className='h-auto w-full'>
+    <section id='news' className='h-auto w-full'>
     <div className='container'>
         <div className='mt-[150px] sm:text-center md:mt-[250px] text-center'>
           <h1 className='text-3xl md:text-5xl font-bold mb-[24px] tracking-widest text-black uppercase mx-auto leading-normal'>News</h1>

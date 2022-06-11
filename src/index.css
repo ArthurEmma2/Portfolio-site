@@ -10,3 +10,7 @@
         @apply font-[Raleway];
     }
 }
+
+html{
+    scroll-behavior: smooth;
+}
