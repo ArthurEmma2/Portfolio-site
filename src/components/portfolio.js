@@ -130,10 +130,10 @@ function Portfolio() {
            i collabrated with one of the most experience UI/UX designers to come out with this amazing project built with React and Tailwind
           </p>
           <div className="flex flex-col xl:flex-row justify-between pb-[33px]  gap-[20px]" >
-          <a className='bg-btnColor p-[9px] rounded-xl text-center text-white hover:bg-[#FFEFF6] hover:text-black border-btnColor border-2' href="#">
+          <a className='bg-btnColor p-[9px] rounded-xl text-center text-white hover:bg-[#FFEFF6] hover:text-black border-btnColor border-2' href="https://arthur-emmanuel.netlify.app/">
               View Site
             </a>
-            <a className='border-btnColor border-2 rounded-xl p-[9px] text-black text-center hover:bg-btnColor hover:text-white' href="#">
+            <a className='border-btnColor border-2 rounded-xl p-[9px] text-black text-center hover:bg-btnColor hover:text-white' href="https://github.com/yhawNoworries/Portfolio-site">
               Source code
             </a>
           </div>
