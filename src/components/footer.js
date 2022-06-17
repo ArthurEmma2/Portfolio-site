@@ -16,7 +16,7 @@ function Footer() {
     Aos.init({duration:2000})
   },[])
   return (
-    <section id='footer' className='h-auto w-full pb-20'>
+    <section id='footer' className='h-auto w-full'>
     <div className='container'>
       <div className='mt-[150px] sm:text-center md:mt-[250px] text-center'>
         <h1 className='text-3xl md:text-5xl font-bold mb-[24px] tracking-widest text-black mx-auto leading-normal'>Get in touch with me:</h1>
@@ -24,12 +24,9 @@ function Footer() {
       </div>
       <div className='grid  sm:grid-cols-1 md:grid grid-cols-1 lg:flex flex-row-reverse justify-between items-center gap-10'>
       <div>
-            <p className='tracking-wide leading-9 font-medium text-xl' data-aos='fade-up'>With 3 years experience
-              in the blockchain space. Blockchain is absolutely one of
-              my favourite technology and it really excite me.</p>
+            <p className='tracking-wide leading-9 font-medium text-xl' data-aos='fade-up'>New technology such as blockchain, big data, and Augmented Reality excites me .</p>
             
-            <p className='tracking-wide leading-9 font-medium text-xl pt-[20px]'  data-aos='fade-up'>Apparently blockchain has been
-              my major focus and i'm ever ready to apply my skills to harness the power of
+            <p className='tracking-wide leading-9 font-medium text-xl pt-[20px]'  data-aos='fade-up'> i hope to apply my skills to harness the power of
               innovations to help create a better future for everyone</p>
             <p className='tracking-wide leading-9 font-medium text-xl pt-[20px]'data-aos='fade-up'>i'm available for work you can email me directly at: <span className='text-blue-700'>emmanuel2002arthur@gmail.com</span></p>
           </div>
@@ -38,25 +35,25 @@ function Footer() {
             <div className='grid sm:items-center grid-cols-4 sm:w-full md:grid w-full md:grid-cols-4 grid-flow-row mt-3 gap-7'>
             <div className='hover:scale-110 duration-500'>
               <a href='https://www.linkedin.com/in/arthur-emmanuel-06b7b9210/'>
-                  <img className='mx-auto w-20 p-4 md:w-52 shadow-2xl md:p-5 rounded-lg bg-white' src={linkedin} alt="react icon" />
+                  <img className='mx-auto w-20 p-4 md:w-28 shadow-2xl md:p-5 rounded-lg bg-white' src={linkedin} alt="react icon" />
                   </a>
                   <p className='my-4 text-center tracking-wide text-black font-bold'>Linkedin</p>
               </div>
             <div className='hover:scale-110 duration-500 cursor-pointer'>
               <a href='https://web.facebook.com/arthuremmanuel.nyarkoyaw'>
-                  <img className='w-20 md:w-32 px-5 py-5 rounded-lg shadow-2xl bg-white' src={facebook} alt="HTML icon" />
+                  <img className='w-20 md:w-28 px-5 py-5 rounded-lg shadow-2xl bg-white' src={facebook} alt="HTML icon" />
                   </a>
                   <p className='my-4 text-center tracking-wide text-black font-bold'>Facebook</p>
               </div>
             <div className='hover:scale-110 duration-500 cursor-pointer'>
               <a href='https://twitter.com/NoworriesDev'>
-                  <img className='mx-auto md:w-32 px-5 py-5 rounded-lg shadow-2xl bg-white' src={twitter} alt="HTML icon" />
+                  <img className='mx-auto md:w-28 px-5 py-5 rounded-lg shadow-2xl bg-white' src={twitter} alt="HTML icon" />
                   </a>
                   <p className='my-4 text-center tracking-wide text-black font-bold'>Twitter</p>
               </div>
               <div className='hover:scale-110 duration-500 cursor-pointer'>
                 <a href='https://github.com/yhawNoworries' >
-                <img className='mx-auto w-20 md:w-32 px-5 py-5 rounded-lg shadow-2xl bg-white' src={github} alt="HTML icon" />
+                <img className='mx-auto w-20 md:w-28 px-5 py-5 rounded-lg shadow-2xl bg-white' src={github} alt="HTML icon" />
                 </a>
                   <p className='my-4 text-center tracking-wide text-black font-bold'>Github</p>
               </div>
@@ -64,6 +61,12 @@ function Footer() {
               </div>
       </div>
     </div>
+     <footer className='mt-24 w-full bg-blue-400 '>
+                   <h3 className='text-center text-white py-7 rounded-xl'> This website was design in Figma and built using React by Arthur Emmanuel
+                   <p className='mt-5'>All Rights Reserved &reg; copyright &copy; 2022<br/>Arthur Emmanuel</p>
+                   </h3>
+                   
+              </footer>
   </section>
 )
 }
