@@ -34,25 +34,25 @@ function Footer() {
           <h2 className='text-2xl sm:tracking-widest ml-4 sm:font-medium md:text-black text-[24px] font-normal tracking-wide text-left mb-7 uppercase'>Find me on </h2>
             <div className='grid sm:items-center grid-cols-4 sm:w-full md:grid w-full md:grid-cols-4 grid-flow-row mt-3 gap-7'>
             <div className='hover:scale-110 duration-500'>
-              <a href='https://www.linkedin.com/in/arthur-emmanuel-06b7b9210/'>
+              <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/arthur-emmanuel-06b7b9210/'>
                   <img className='mx-auto w-20 p-4 md:w-28 shadow-2xl md:p-5 rounded-lg bg-white' src={linkedin} alt="react icon" />
                   </a>
                   <p className='my-4 text-center tracking-wide text-black font-bold'>Linkedin</p>
               </div>
             <div className='hover:scale-110 duration-500 cursor-pointer'>
-              <a href='https://web.facebook.com/arthuremmanuel.nyarkoyaw'>
+              <a target='_blank' rel="noreferrer" href='https://web.facebook.com/arthuremmanuel.nyarkoyaw'>
                   <img className='w-20 md:w-28 px-5 py-5 rounded-lg shadow-2xl bg-white' src={facebook} alt="HTML icon" />
                   </a>
                   <p className='my-4 text-center tracking-wide text-black font-bold'>Facebook</p>
               </div>
             <div className='hover:scale-110 duration-500 cursor-pointer'>
-              <a href='https://twitter.com/NoworriesDev'>
+              <a target='_blank' rel="noreferrer" href='https://twitter.com/NoworriesDev'>
                   <img className='mx-auto md:w-28 px-5 py-5 rounded-lg shadow-2xl bg-white' src={twitter} alt="HTML icon" />
                   </a>
                   <p className='my-4 text-center tracking-wide text-black font-bold'>Twitter</p>
               </div>
               <div className='hover:scale-110 duration-500 cursor-pointer'>
-                <a href='https://github.com/yhawNoworries' >
+                <a target='_blank' rel="noreferrer" href='https://github.com/ArthurEmma2' >
                 <img className='mx-auto w-20 md:w-28 px-5 py-5 rounded-lg shadow-2xl bg-white' src={github} alt="HTML icon" />
                 </a>
                   <p className='my-4 text-center tracking-wide text-black font-bold'>Github</p>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../assets/project-pictures/hero picture2.png'
+import Hero from '../assets/project-pictures/Kom2.png'
 
 
 
@@ -13,7 +13,7 @@ function Section() {
   },[])
   return (
     <>
-      <div id='home' className='sm:grid pt-20 grid-cols-1 md:grid-cols-1 grid lg:flex container justify-between  items-center md:pt-40'>
+      <div id='home' className='sm:grid pt-20 grid-cols-1 md:grid-cols-1 grid lg:flex container justify-between items-center md:pt-40'>
         <div>
         <h1 className= 'text-3xl  md:text-5xl text-heroColor pb-4 font-bold text-left pt-6 lg:pb-10'><span className='text-black' >Hello, I am</span> Arthur  Emmanuel.</h1><br></br>
 
