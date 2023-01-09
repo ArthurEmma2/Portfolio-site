@@ -24,7 +24,7 @@ function Footer() {
       </div>
       <div className='grid  sm:grid-cols-1 md:grid grid-cols-1 lg:flex flex-row-reverse justify-between items-center gap-10'>
       <div>
-            <p className='tracking-wide leading-9 font-medium text-xl' data-aos='fade-up'>New technology such as blockchain, big data, and Augmented Reality excites me .</p>
+            <p className='tracking-wide leading-9 font-medium text-xl' data-aos='fade-up'>New technology such as Blockchain, Big data, and Augmented Reality excites me .</p>
             
             <p className='tracking-wide leading-9 font-medium text-xl pt-[20px]'  data-aos='fade-up'> i hope to apply my skills to harness the power of
               innovations to help create a better future for everyone</p>
@@ -63,7 +63,7 @@ function Footer() {
     </div>
      <footer className='mt-24 w-full bg-blue-400 '>
                    <h3 className='text-center text-white py-7 rounded-xl'> This website was design in Figma and built using React by Arthur Emmanuel
-                   <p className='mt-5'>All Rights Reserved &reg; copyright &copy; 2022<br/>Arthur Emmanuel</p>
+                   <p className='mt-5'>All Rights Reserved &reg; copyright &copy; 2023<br/>Arthur Emmanuel</p>
                    </h3>
                    
               </footer>

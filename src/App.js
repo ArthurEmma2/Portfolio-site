@@ -7,6 +7,8 @@ import Tools from './components/tools'
 import Qualities from './components/qualities'
 import News from './components/news'
 import Footer from './components/footer'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 function App() {

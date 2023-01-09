@@ -8,7 +8,11 @@ import REACT from '../assets/lang_icons/react.png'
 import GIT from '../assets/lang_icons/git.png'
 import TAILWIND from '../assets/lang_icons/tailwind.png'
 import NEXT from '../assets/lang_icons/next.jpg'
+import Typescript from '../assets/lang_icons/typescript.png'
 import REDUX from '../assets/lang_icons/Redux.png'
+import Jest from '../assets/lang_icons/jest.png'
+import Node from '../assets/lang_icons/node.png'
+import mongo from '../assets/lang_icons/mongo.png'
 
 
 
@@ -31,7 +35,7 @@ function Tools() {
         </div>
         <div className='grid gap-10 sm:grid-cols-1 md:grid grid-cols-1 lg:flex justify-around items-center md:gap-[104px]'>
         <div>
-        <p className='tracking-wide leading-9 font-medium text-xl mb-7'>A web developer with major focus on JavaScript and React.
+        <p className='tracking-wide leading-9 font-medium text-xl mb-7'>An Engineer with major focus on JavaScript, TypeScript and React.
                Proficient in HTML5, CSS3, Bootstrap, JavaScript,
              React JS, Redux, Git, Github, Tailwind css and Next js.
                  I always try to be in trend in order to produce  maximally
@@ -78,6 +82,22 @@ function Tools() {
               <div className='hover:scale-110 duration-500'>
                   <img className='mx-auto w-20 md:w-32 px-5 py-[25px] rounded-lg bg-white' src={NEXT} alt="next icon" />
                   <p className='my-4 text-center tracking-wide text-black font-bold'>NEXT JS</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={Typescript} alt="redux icon" />
+                  <p className='my-4 text-center  tracking-wide text-black font-bold'>TS</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={Jest} alt="tailwind icon" />
+                  <p className='my-4 text-center  tracking-wide text-black font-bold'>JEST</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px]  shadow-2xl rounded-lg bg-white' src={mongo} alt="git icon" />
+                  <p className='my-4 text-center tracking-wide text-black font-bold'>Mongo</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px] rounded-lg bg-white' src={Node} alt="next icon" />
+                  <p className='my-4 text-center tracking-wide text-black font-bold'>NODE</p>
               </div>
           </div>
           </div>
