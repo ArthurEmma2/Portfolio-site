@@ -143,7 +143,7 @@ function Portfolio() {
             </a>
           </div>
         </div>
-      </div>
+      </div> 
       <div className="shadow-xl rounded-lg bg-[#FFEFF6]">
           <img src={hero}  alt='products' className="rounded-tl-lg rounded-tr-lg object-cover slider_img" />
         <div className='pb-5 w-full px-5' data-aos='flip-up'>
