@@ -64,6 +64,10 @@ function Tools() {
                   <p className='my-4 text-center tracking-wide text-black font-bold'>JS</p>
               </div>
               <div className='hover:scale-110 duration-500'>
+                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={Typescript} alt="redux icon" />
+                  <p className='my-4 text-center  tracking-wide text-black font-bold'>TS</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
                   <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={REACT} alt="react icon" />
                   <p className='my-4 text-center tracking-wide text-black font-bold'>REACT</p>
               </div>
@@ -84,16 +88,12 @@ function Tools() {
                   <p className='my-4 text-center tracking-wide text-black font-bold'>NEXT JS</p>
               </div>
               <div className='hover:scale-110 duration-500'>
-                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={Typescript} alt="redux icon" />
-                  <p className='my-4 text-center  tracking-wide text-black font-bold'>TS</p>
-              </div>
-              <div className='hover:scale-110 duration-500'>
                   <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={Jest} alt="tailwind icon" />
                   <p className='my-4 text-center  tracking-wide text-black font-bold'>JEST</p>
               </div>
               <div className='hover:scale-110 duration-500'>
                   <img className='mx-auto w-20 md:w-32 px-5 py-[25px]  shadow-2xl rounded-lg bg-white' src={mongo} alt="git icon" />
-                  <p className='my-4 text-center tracking-wide text-black font-bold'>Mongo</p>
+                  <p className='my-4 text-center tracking-wide text-black font-bold'>MONGO</p>
               </div>
               <div className='hover:scale-110 duration-500'>
                   <img className='mx-auto w-20 md:w-32 px-5 py-[25px] rounded-lg bg-white' src={Node} alt="next icon" />
