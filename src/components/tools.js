@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import HTML from '../assets/lang_icons/html2.png'
+import HTML from '../assets/lang_icons/html22.png'
 import CSS3 from '../assets/lang_icons/css.png'
 import JAVASCRIPT from '../assets/lang_icons/javascript.png'
 import REACT from '../assets/lang_icons/react.png'
@@ -10,7 +10,7 @@ import TAILWIND from '../assets/lang_icons/tailwind.png'
 import NEXT from '../assets/lang_icons/next.jpg'
 import Typescript from '../assets/lang_icons/typescript.png'
 import REDUX from '../assets/lang_icons/Redux.png'
-import Jest from '../assets/lang_icons/jest.png'
+import Jest from '../assets/lang_icons/jest22.png'
 import Node from '../assets/lang_icons/node.png'
 import mongo from '../assets/lang_icons/mongo.png'
 
@@ -35,28 +35,32 @@ function Tools() {
         </div>
         <div className='grid gap-10 sm:grid-cols-1 md:grid grid-cols-1 lg:flex justify-around items-center md:gap-[104px]'>
         <div>
-        <p className='tracking-wide leading-9 font-medium text-xl mb-7'>An Engineer with major focus on JavaScript, TypeScript and React.
-               Proficient in HTML5, CSS3, Bootstrap, JavaScript,
-             React JS, Redux, Git, Github, Tailwind css and Next js.
-                 I always try to be in trend in order to produce  maximally
-              innovative, testable, maintainable and stable code.</p>
+        <p className='tracking-wide leading-9 font-medium text-xl mb-7 w-auto md:w-[680px]'>As an experienced and dedicated web developer, I bring a strong set of skills and a passion 
+        for solving problems to every project. With a major focus on JavaScript, TypeScript, and React, 
+        I am proficient in technologies such as HTML5, CSS3, Bootstrap, JavaScript, React JS, Redux, Git, Github, Tailwind CSS, and Next JS. I am committed to staying current with
+         the latest trends and techniques to ensure
+         that my code is not only innovative and testable, but also maintainable and stable.</p>
               
-              <p className='pb-32 lg:tracking-wide leading-9 font-medium text-xl pt-[15px]'>Hardworking and reliable web
-               developer with strong ability in web designing.
-               I'm very passionate about solving 
-               problems and eager to learn more skills ahead.<br /><br />I can position my self 
-                 in any tech team to support initiatives to ensure we reach our goals.</p>
+              <p className='pb-32 lg:tracking-wide leading-9 font-medium text-xl pt-[15px] w-auto md:w-[680px]'>I am always looking
+               for new ways to push the boundaries and create truly outstanding solutions for my clients and 
+               projects. My ability in web designing, hardworking, and reliability make me a valuable asset
+                to any team. I am confident in my ability to position myself in any tech team and support
+               initiatives to help us reach our goals. I am eager to learn more skills and excited to continue growing as a web developer. I am a team player and I am always looking
+                forward to working with a team to achieve a common goal.</p>
           </div>
-          <div data-aos='flip-up' className='animate-bounce'>
+          <div data-aos='flip-up' className=' animate-bounce'>
           <h2 className='text-2xl sm:tracking-widest ml-4 mb-5 sm:font-medium md:text-black text-[24px] font-normal tracking-wide text-left '>Skilled in </h2>
-            <div className='grid sm:items-left grid-cols-4 sm:w-full md:grid w-full md:grid-cols-4 grid-flow-row gap-x-7 '>
-            <div className='hover:scale-110 duration-500'>
-                  <img className='mx-auto w-20 md:w-32 px-5 py-5 rounded-lg shadow-2xl bg-white' src={HTML} alt="HTML icon" />
-                  <p className='my-4 text-center tracking-wide text-black font-bold'>HTML</p>
+            <div className='grid sm:items-left grid-cols-4 sm:w-full md:grid w-full md:grid-cols-4 grid-flow-row '>
+            {/* <div className='hover:scale-110 duration-500 items-center justify-center mx-auto'>
+              <div className=' bg-white w-[100px] h-[80px] rounded-lg shadow-2xl'>
+              <img className='mx-auto pt-5' width='30px' src={HTML} alt="HTML icon" />
+              </div>
+                 
+                  <p className='my-4 mx-auto text-center tracking-wide text-black font-bold'>HTML</p>
               </div>
              
               <div className='hover:scale-110 duration-500'>
-                  <img className='mx-auto md:shadow-2xl px-5 py-[25px] rounded-lg bg-white' src={CSS3} alt="css icon" />
+                  <img className='mx-auto md:shadow-2xl px-5 py-[25px] rounded-lg bg-white' width='80px' src={CSS3} alt="css icon" />
                   <p className='my-4 text-center tracking-wide text-black font-bold'>CSS</p>
               </div>
               <div className='hover:scale-110 duration-500'>
@@ -66,6 +70,22 @@ function Tools() {
               <div className='hover:scale-110 duration-500'>
                   <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={Typescript} alt="redux icon" />
                   <p className='my-4 text-center  tracking-wide text-black font-bold'>TS</p>
+              </div> */}
+              <div className='hover:scale-110 duration-500'>
+                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={HTML} alt="react icon" />
+                  <p className='my-4 text-center tracking-wide text-black font-bold'>HTML</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={CSS3} alt="redux icon" />
+                  <p className='my-4 text-center  tracking-wide text-black font-bold'>CSS</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={JAVASCRIPT} alt="tailwind icon" />
+                  <p className='my-4 text-center tracking-wide text-black font-bold'>JS</p>
+              </div>
+              <div className='hover:scale-110 duration-500'>
+                  <img className='mx-auto w-20 md:w-32 px-5 py-[25px]  shadow-2xl rounded-lg bg-white' src={Typescript} alt="git icon" />
+                  <p className='my-4 text-center tracking-wide text-black font-bold'>TS</p>
               </div>
               <div className='hover:scale-110 duration-500'>
                   <img className='mx-auto w-20 md:w-32 px-5 py-[25px] shadow-2xl rounded-lg bg-white' src={REACT} alt="react icon" />

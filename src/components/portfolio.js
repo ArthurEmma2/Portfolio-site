@@ -71,7 +71,7 @@ function Portfolio() {
       <div className='App'>
       <Slider {...settings}>
       <div className="shadow-lg rounded-lg bg-[#FFEFF6] h-[370px] md:h-[370px] lg:h-[450px] w-full">  
-          <img src={img4} alt='products'/>
+          <img loading='lazy' src={img4} alt='products'/>
         <div className='w-full'data-aos='flip-up'>
           <div className='mx-4 mt-2'>
           <h3 className='text-center text-xl font-bold md:text-center text-btnColor my-4'>Star Trade</h3>
@@ -92,7 +92,7 @@ function Portfolio() {
       </div>
 
       <div className="shadow-lg rounded-lg bg-[#FFEFF6]  h-[370px] md:h-[370px] lg:h-[450px] w-full">
-          <img src={img3} alt='products' />
+          <img loading='lazy' src={img3} alt='products' />
           <div className='w-full'data-aos='flip-up'>
           <div className='mx-4 mt-[4px]'>
           <h3 className='text-center text-xl font-bold md:text-center text-btnColor my-4'>Aptos More</h3>
@@ -112,7 +112,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="shadow-lg rounded-lg bg-[#FFEFF6]  h-[370px] md:h-[370px] lg:h-[450px] w-full">
-          <img src={img} alt='products' />
+          <img loading='lazy' src={img} alt='products' />
           <div className='w-full'data-aos='flip-up'>
           <div className='mx-4 mt-[4px]'>
           <h3 className='text-center text-xl font-bold md:text-center text-btnColor my-4'>E-commerce</h3>
@@ -153,7 +153,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="shadow-lg rounded-lg bg-[#FFEFF6]  h-[370px] md:h-[370px] lg:h-[450px] w-full">
-          <img src={hero} alt='products' />
+          <img loading='lazy' src={hero} alt='products' />
           <div className='w-full'data-aos='flip-up'>
           <div className='mx-4 mt-[4px]'>
           <h3 className='text-center text-xl font-bold md:text-center text-btnColor my-4'>Portfolio</h3>
