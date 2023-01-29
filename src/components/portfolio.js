@@ -163,10 +163,10 @@ function Portfolio() {
           </div>
           
           <div className="flex flex-col md:flex-row justify-around pb-[33px] mt-6 md:mt-[54px] gap-[12px] md:gap-[0px] mx-3 md:mx-0" >
-          <a className='bg-btnColor w-full h-full md:w-[120px] md:h-[35px] lg:h-[45px] lg:w-[140px] rounded-xl text-center text-white hover:bg-[#FFEFF6] hover:text-black border-btnColor border-2'target="_blank" rel="noreferrer" href="https://artweatherapp.netlify.app/">
+          <a className='bg-btnColor w-full h-full md:w-[120px] md:h-[35px] lg:h-[45px] lg:w-[140px] rounded-xl text-center text-white hover:bg-[#FFEFF6] hover:text-black border-btnColor border-2'target="_blank" rel="noreferrer" href="https://arthur-emmanuel.netlify.app/">
           <p className='text-center mt-auto md:mt-[3px] lg:mt-[9px]'> View Site</p>
             </a>
-            <a className='border-btnColor border-2 rounded-xl w-full h-full md:w-[120px] md:h-[35px] lg:h-[45px] lg:w-[140px]  text-black text-center hover:bg-btnColor hover:text-white'target="_blank" rel="noreferrer" href="https://github.com/yhawNoworries/Weather-Application">
+            <a className='border-btnColor border-2 rounded-xl w-full h-full md:w-[120px] md:h-[35px] lg:h-[45px] lg:w-[140px]  text-black text-center hover:bg-btnColor hover:text-white'target="_blank" rel="noreferrer" href="https://github.com/ArthurEmma2/Portfolio-site">
             <p className='text-center mt-auto md:mt-[3px] lg:mt-[9px] '>  Source code</p>
             </a>
           </div>

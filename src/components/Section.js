@@ -37,7 +37,7 @@ function Section() {
         <a href='#portfolio'>
         <button className=' shadow-slate-400 h-[50px] w-[150px] md:w-[200px] md:h-[52px] text-[10px] md:text-[17px] text-white bg-blue-800 rounded-xl px-10 shadow-xl hover:bg-blue-200 border-blue-900 border-2 hover:text-black'>See my works</button>
         </a>
-        <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1ajoIje3FAwq66u7OqPRepZk6OI2sEJSr/view'>
+        <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1y7jmptROpj2yFn4UPVrHIZAX94Wq-sv4/view'>
          <button className=' h-[50px] w-[150px] md:w-[200px] md:h-[52px] text-[10px] md:text-[17px] tracking-widest ml-6 bg-blue-200 border-blue-900 border-2 rounded-xl  px-12 shadow-xl hover:bg-blue-800 hover:text-white transition-shadow'>Resume</button>
          </a>
          </div>

@@ -24,11 +24,10 @@ function Footer() {
       </div>
       <div className='grid  sm:grid-cols-1 md:grid grid-cols-1 lg:flex flex-row-reverse justify-between items-center gap-10'>
       <div>
-            <p className='tracking-wide leading-9 font-medium text-xl' data-aos='fade-up'>New technology such as Blockchain, Big data, and Augmented Reality excites me .</p>
+            <p className='tracking-wide leading-9 font-medium text-xl' data-aos='fade-up'>I am excited about new technologies such as Blockchain, Big Data, and Augmented Reality. </p>
             
-            <p className='tracking-wide leading-9 font-medium text-xl pt-[20px]'  data-aos='fade-up'> i hope to apply my skills to harness the power of
-              innovations to help create a better future for everyone</p>
-            <p className='tracking-wide leading-9 font-medium text-xl pt-[20px]'data-aos='fade-up'>i'm available for work you can email me directly at: <span className='text-blue-700'>emmanuel2002arthur@gmail.com</span></p>
+            <p className='tracking-wide leading-9 font-medium text-xl pt-[20px]'  data-aos='fade-up'>
+            If you're looking for someone with my skillset, please feel free to reach out to me directly at: <span className='text-blue-700'>emmanuel2002arthur@gmail.com</span></p>
           </div>
           <div className='mr-3 md:mr-24' >
           <h2 className='text-2xl sm:tracking-widest ml-4 sm:font-medium md:text-black text-[24px] font-normal tracking-wide text-left mb-7 uppercase'>Find me on </h2>
